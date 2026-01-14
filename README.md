@@ -1,3 +1,10 @@
+
+# Description
+This project implements an autonomous, obstacle-avoiding mobile robot using an Arduino microcontroller. The system has four inexpensive (I should say cheap and crummy) DC motors with mecanum wheels, a servo-mounted ultrasonic distance sensor (which is also crummy), and a lightweight control state machine (which is super powerful ;-)). The robot continuously scans its environment by rotating the ultrasonic sensor to the left, center, and right, estimating the minimum forward distance using multiple measurements to know which is the best direction to move forward. If the distances are blocked in all directions, the robot backs off. Otherwise, it turns toward the direction with the highest clearance (distance to the obstacle).
+
+I also added a short-term memory of the last turn direction, which helps prevent moving back and forth, and if it has tried one direction and it did not work, it does not try it again. Overall, I expect this to act as a Roomba cleaner (knowing that the company went bankrupt, but maybe it would not have if it had better navigation).
+
+
 # Obstacle-Avoiding 4-Motor Robot (Servo + Ultrasonic) - Arduino Sketch
 
 This repository contains an Arduino sketch for a simple obstacle-avoiding robot that uses:
