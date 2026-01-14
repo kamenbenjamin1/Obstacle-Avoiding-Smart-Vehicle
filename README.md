@@ -1,4 +1,4 @@
-# Obstacle-Avoiding 4-Motor Robot (Servo + Ultrasonic) — Arduino Sketch
+# Obstacle-Avoiding 4-Motor Robot (Servo + Ultrasonic) - Arduino Sketch
 
 This repository contains an Arduino sketch for a simple obstacle-avoiding robot that uses:
 
