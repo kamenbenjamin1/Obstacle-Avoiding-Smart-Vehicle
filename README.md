@@ -50,7 +50,7 @@ This repository contains an Arduino sketch for a simple obstacle-avoiding robot 
 - `motor3_pin2 = 2`
 - `motor4_pin1 = 4`
 - `motor4_pin2 = 5`
-- `motor3_4_PWM = 6`  ⚠️ (same PWM pin as motor1_2_PWM)
+- `motor3_4_PWM = 6`   (same PWM pin as motor1_2_PWM) meaning the motors on both axes will have the same speed
 
 ### Ultrasonic
 - `trigPin = 13`
